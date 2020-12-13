@@ -1,22 +1,22 @@
 {
-    "name": "原神体力小工具",
-    "version": "1.0",
-    "description": "Mars Tan!",
-    "permissions": ["declarativeContent", "storage", "notifications", "alarms"],
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "32": "img/ys32.png",
-            "128": "img/ys128.png"
-          }
-    },
-    "icons": {
-        "32": "img/ys32.png",
-        "128": "img/ys128.png"
-      },
-    "manifest_version": 2
-  }
+  "name": "原神体力小工具",
+  "version": "1.0",
+  "description": "Mars Tan!",
+  "permissions": ["declarativeContent", "storage", "notifications", "alarms"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "img/ys32.png",
+      "128": "img/ys128.png"
+    }
+  },
+  "icons": {
+    "32": "img/ys32.png",
+    "128": "img/ys128.png"
+  },
+  "manifest_version": 2
+}
